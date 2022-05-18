@@ -8,12 +8,6 @@
             "password": "密码",
            "X-Real-IP": "",
             "enable": true
-        } ,{
-            "username":"手机号",
-            "countrycode": "",
-            "password":"密码",
-            "X-Real-IP":"",
-            "enable": true
         }
      
     ],
