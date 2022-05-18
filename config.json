@@ -1,0 +1,147 @@
+﻿{
+    "version": "2.10",
+    "users": [
+        {
+        
+            "username": "手机号",
+            "countrycode": "",
+            "password": "密码",
+           "X-Real-IP": "",
+            "enable": true
+        } ,{
+            "username":"手机号",
+            "countrycode": "",
+            "password":"密码",
+            "X-Real-IP":"",
+            "enable": true
+        }
+     
+    ],
+            
+    
+    "setting": {
+        "stopPushOnAPIGateway": false,
+        "serverChan": {
+            "enable": false,
+            "KEY": ""
+        },
+        "pushPlus": {
+            "enable": true,
+            "pushToken": "139510cd45d64746a1b7d74daf8c3bd7",
+            "topic": ""
+        },
+        "CoolPush": {
+            "enable": false,
+            "method": [
+                "send"
+            ],
+            "Skey": ""
+        },
+        "WeCom": {
+            "enable": false,
+            "corpid": "",
+            "agentid": "",
+            "secret": "",
+            "userid": "@all",
+            "msgtype": "text"
+        },
+        "sign": true,
+        "yunbei_task": {
+            "发布动态": {
+                "enable": true,
+                "taskName": "发布动态",
+                "id": [7271846862],
+                "msg": [
+                    "电影里所有的遗憾和错过 都会有一个解释和结局 但是生活里没有"
+                ],
+                "delete": true
+            },
+            "访问云音乐商城": {
+                "enable": true,
+                "taskName": "访问云音乐商城"
+            },
+            "云贝推歌": {
+                "enable": true,
+                "taskName": "云贝推歌",
+                "songId": [1913877294,1911699763,1917423835],
+                "yunbeiNum": 10,
+                "reason": [
+                    "电影里所有的遗憾和错过 都会有一个解释和结局 但是生活里没有"
+                ]
+            },
+            "发布Mlog": {
+                "enable": true,
+                "taskName": "发布Mlog",
+                "songId": [1913877294,1911699763,1917423835],
+                "text": [
+                    "最近大爱$artist的$song"
+                ],
+                "size": 16,
+                "delete": true
+            }
+        },
+        "musician_task": {
+            "登录音乐人中心": {
+                "enable": true
+            },
+            "发布动态": {
+                "enable": true,
+                "id": [7271846862],
+                "msg": [
+                    "电影里所有的遗憾和错过 都会有一个解释和结局 但是生活里没有"
+                ],
+                "delete": true
+            },
+            "发布主创说": {
+                "enable": true,
+                "id": [1913877294,1911699763,1917423835],
+                "msg": [
+                    "电影里所有的遗憾和错过 都会有一个解释和结局 但是生活里没有"
+                ],
+                "delete": false
+            },
+            "回复粉丝评论": {
+                "enable": true,
+                "id": [1913877294,1911699763,1917423835],
+                "msg": [
+                    "电影里所有的遗憾和错过 都会有一个解释和结局 但是生活里没有"
+                ],
+                "delete": false
+            },
+            "回复粉丝私信": {
+                "enable": true,
+                "id": [324105534],
+                "msg": [
+                    "电影里所有的遗憾和错过 都会有一个解释和结局 但是生活里没有"
+                ]
+            }
+        },
+        "vip_task": {
+            "创建共享歌单": {
+                "enable": true,
+                "taskName": "创建共享歌单",
+                "name": [
+                    "还有安轩陪着我"
+                ],
+                "delete": true
+            }
+        },
+        "daka": {
+            "enable": true,
+            "full_stop": true,
+            "auto": true,
+            "tolerance": 0,
+            "song_number": 2400,
+            "sleep_time": 10,
+            "upload_num": 600
+        },
+        "other": {
+            "play_playlists": {
+                "enable": true,
+                "playlist_ids": [7271846862],
+                "times": 20
+            }
+        },
+        "follow": true
+    }
+}
